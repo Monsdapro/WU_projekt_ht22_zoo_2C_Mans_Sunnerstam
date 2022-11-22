@@ -1,0 +1,56 @@
+h1{
+    font-size: 50px;
+}
+
+#header_grid_parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 50px;
+    grid-template-areas: 
+    "he he he"
+    "st an ab";
+}
+
+#title{
+    grid-area: he;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#start_icon{
+    grid-area: st;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+}
+
+#animals_icon{
+    grid-area: an;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+}
+
+#about_us_icon{
+    grid-area: ab;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+}
+
+a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
