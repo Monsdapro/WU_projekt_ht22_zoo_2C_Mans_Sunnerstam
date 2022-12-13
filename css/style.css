@@ -22,6 +22,16 @@ h1{
 #start_icon{
     grid-area: st;
 
+    font-size: 5em;
+    width: 100%;
+    height: 100%;
+    line-height: 2;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +41,16 @@ h1{
 
 #animals_icon{
     grid-area: an;
+
+    font-size: 5em;
+    width: 100%;
+    height: 100%;
+    line-height: 2;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
 
     display: flex;
     align-items: center;
@@ -46,6 +66,16 @@ h1{
     align-items: center;
     justify-content: center;
 
+    font-size: 5em;
+    width: 100%;
+    height: 100%;
+    line-height: 2;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+
     border: 1px solid black;
 }
 
@@ -53,4 +83,101 @@ a{
     font-size: 30px;
     color: black;
     text-decoration: none;
+}
+
+#articles
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards 
+{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+#card_1 
+{
+    background-image: url("../img/other/card1.jpg");
+    background-position: right 1220px bottom 1000px;
+}
+
+#card_2 
+{
+    background-image: url("../img/other/card2.jpg");
+    background-position: right 1450px bottom 900px;
+    background-size: 800%;
+}
+
+#card_3 
+{
+    background-image: url("../img/other/card3.jpg");
+    background-position: right 1000px bottom 1000px;
+    background-size: 500%;
+}
+
+#card_4 
+{
+    background-image: url("../img/other/card_4.jpg");
+    background-position: right 1050px bottom -100px;
+    background-size: 400%;
+}
+
+#card_5 
+{
+    background-image: url("../img/other/card5.jpg");
+    background-position: right 1050px bottom -100px;
+    background-size: 400%;
+}
+
+#card_6 
+{
+    background-image: url("../img/other/card6.jpg");
+    background-position: right 1050px bottom -100px;
+    background-size: 400%;
+}
+
+#card_7 
+{
+    background-image: url("../img/other/card7.jpg");
+    background-position: right 1050px bottom -100px;
+    background-size: 400%;
+}
+
+#card_8 
+{
+    background-image: url("../img/other/card8.jpg");
+    background-position: right 1050px bottom -100px;
+    background-size: 400%;
+}
+
+.cards:hover {
+    box-shadow: 2px 2px 4px 4px black;
+
+    animation-name: cards_hover;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes cards_hover {
+    from {
+        box-shadow: 0px 0px 0px 0px black;
+    }
+    to {
+        box-shadow: 2px 2px 4px 4px black;
+    }
+}
+
+.img_in_header
+{
+    height: 40px;
+    width: 40px;
+}
+
+#img_search
+{
+    filter: invert();    
 }
