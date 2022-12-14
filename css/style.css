@@ -102,35 +102,36 @@ a{
 #card_1 
 {
     background-image: url("../img/other/card1.jpg");
-    background-position: right 1220px bottom 1000px;
+    background-position: right -150px bottom 0px;
+    background-size: 150%;
 }
 
 #card_2 
 {
     background-image: url("../img/other/card2.jpg");
-    background-position: right 1450px bottom 900px;
-    background-size: 800%;
+    background-position: right 0px bottom 0px;
+    background-size: 150%;
 }
 
 #card_3 
 {
     background-image: url("../img/other/card3.jpg");
-    background-position: right 1000px bottom 1000px;
-    background-size: 500%;
+    background-position: right 0px bottom 0px;
+    background-size: 100%;
 }
 
 #card_4 
 {
     background-image: url("../img/other/card_4.jpg");
-    background-position: right 1050px bottom -100px;
-    background-size: 400%;
+    background-position: right -200px bottom -150px;
+    background-size: 150%;
 }
 
 #card_5 
 {
     background-image: url("../img/other/card5.jpg");
-    background-position: right 1050px bottom -100px;
-    background-size: 400%;
+    background-position: right 0px bottom -200px;
+    background-size: 100%;
 }
 
 #card_6 
