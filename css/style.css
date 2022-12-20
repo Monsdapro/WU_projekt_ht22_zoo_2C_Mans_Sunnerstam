@@ -182,3 +182,51 @@ a{
 {
     filter: invert();    
 }
+
+img {
+    margin: 10px;
+    align-items: center;
+}
+
+#mainpage_grid_parent {
+    display: grid;
+    grid-template-columns: 70% minmax(10px 30%);
+    grid-template-rows: 50px max-content;
+    grid-template-areas:
+    "he he"
+    "a1 a2";
+}
+
+#article1 {
+    grid-area: a1;
+}
+
+#article2 {
+    grid-area: a2;
+}
+
+#rubrik {
+    grid-area: he;
+}
+
+#orangutan {
+    height: 400px;
+    width: 400px;
+}
+
+#animals_grid_parent {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax() 50%;
+    grid-template-areas: 
+    "a1"
+    "a2";
+}
+
+#animal1 {
+    grid-area: a1;
+}
+
+#animal2 {
+    grid-area: a2;
+}
